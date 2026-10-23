@@ -1,0 +1,13 @@
+.about-us-container {
+  background: rgba(247, 245, 239, 0.94);
+  color: var(--ink);
+  padding: 36px 40px;
+  border-radius: 14px;
+  line-height: 1.7;
+}
+.about-us-container h2 {
+  font-family: Georgia, 'Times New Roman', serif;
+  color: var(--forest);
+  margin-top: 0;
+}
+.about-us-container p { max-width: 70ch; }
