@@ -1,0 +1,20 @@
+:root {
+  --forest: #1f4d36;
+  --moss: #4f7d4a;
+  --leaf: #a7c957;
+  --bark: #6b4f3a;
+  --paper: #f7f5ef;
+  --ink: #1c2a22;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: 'Segoe UI', system-ui, -apple-system, Helvetica, Arial, sans-serif;
+  color: var(--ink);
+  background: var(--paper);
+}
+button { font-family: inherit; cursor: pointer; }
+button:focus-visible, a:focus-visible {
+  outline: 3px solid var(--leaf);
+  outline-offset: 2px;
+}
